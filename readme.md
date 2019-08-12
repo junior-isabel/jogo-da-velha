@@ -7,3 +7,4 @@
 + todo seu código se encontra neste repositorio, tens a permissão de baixa, testar e utilizar como base para os seus projectos e não se esqueça dizer o que você acho deste programar para motivar-me a continuar ):
 
 #### o Seu paracer será muito importante para mim.
+este projecto foi escrito com código puro, javascript, css e html simplesmente sem dependencias para complicar o seu entender.
