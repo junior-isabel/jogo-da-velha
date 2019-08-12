@@ -3,26 +3,34 @@
 <head>
     <title>jogo da velha</title>
     <link type="text/css" rel="stylesheet" href="./styles/styles.css">
+    <meta charset="utf-8">
 </head>
 
 <body>
     <section class="container">
         <header class="header">
             <h1>jogo da velha</h1>
+            <h3 id="goal"></h3>
+            <p id="message-success"></p>
         </header>
         <article class="table">
-           
-                
         </article>
-        <footer>
-            <button type="button">start</button>
+        <section id="message-errors"></section>
+        <footer class="joystic">
+            <button type="button" id="btn-game-start">start</button>
+            <button type="button" id="btn-game-over">game over</button>
         </footer>
     </section>
 
     <script src="./components/button.js"></script>
+    <script src="./components/message.js"></script>
     <script src="./components/game.js"></script>
+
+    <script>
+        document.getElementById('btn-game-start').addEventListener('click', (event) => game.ligar())
+        document.getElementById('btn-game-over').addEventListener('click', (event) => game.reset())
+
+    </script>
 </body>
-
-
 
 </html>
